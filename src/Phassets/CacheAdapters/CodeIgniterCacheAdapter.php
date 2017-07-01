@@ -1,5 +1,7 @@
 <?php
 
+namespace Phassets\CacheAdapters;
+
 use Phassets\Interfaces\CacheAdapter;
 use Phassets\Interfaces\Configurator;
 

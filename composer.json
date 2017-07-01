@@ -12,7 +12,8 @@
   "autoload": {
     "psr-4": {
       "Phassets\\Configurators\\": "src/Phassets/Configurators/",
-      "Phassets\\CacheAdapters\\": "src/Phassets/CacheAdapters/"
+      "Phassets\\CacheAdapters\\": "src/Phassets/CacheAdapters/",
+      "Phassets\\Loggers\\": "src/Phassets/Loggers/"
     }
   }
 }

@@ -1,5 +1,7 @@
 <?php
 
+namespace Phassets\Configurators;
+
 use Phassets\Interfaces\Configurator;
 
 class CodeIgniterConfigurator implements Configurator
