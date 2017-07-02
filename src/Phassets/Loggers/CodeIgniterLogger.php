@@ -5,6 +5,12 @@ namespace Phassets\Loggers;
 use Phassets\Interfaces\Configurator;
 use Phassets\Interfaces\Logger;
 
+/**
+ * Phassets Logger for CodeIgniter 3
+ *
+ * This content is released under the MIT License (MIT).
+ * @see LICENSE file
+ */
 class CodeIgniterLogger implements Logger
 {
 

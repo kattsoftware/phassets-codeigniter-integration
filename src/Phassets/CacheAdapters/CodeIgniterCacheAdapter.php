@@ -5,6 +5,12 @@ namespace Phassets\CacheAdapters;
 use Phassets\Interfaces\CacheAdapter;
 use Phassets\Interfaces\Configurator;
 
+/**
+ * Phassets CacheAdapter for CodeIgniter 3
+ *
+ * This content is released under the MIT License (MIT).
+ * @see LICENSE file
+ */
 class CodeIgniterCacheAdapter implements CacheAdapter
 {
     /**

@@ -4,6 +4,12 @@ namespace Phassets\Configurators;
 
 use Phassets\Interfaces\Configurator;
 
+/**
+ * Phassets Configurator for CodeIgniter 3
+ *
+ * This content is released under the MIT License (MIT).
+ * @see LICENSE file
+ */
 class CodeIgniterConfigurator implements Configurator
 {
     /**
