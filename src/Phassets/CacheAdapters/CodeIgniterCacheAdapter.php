@@ -47,6 +47,10 @@ class CodeIgniterCacheAdapter implements CacheAdapter
      */
     public function save($key, $value, $ttl = null)
     {
+        if (!isset($this->ci->cache)) {
+            return false;
+        }
+        
         $ttl = $ttl !== null ? $ttl : $this->ttl;
 
         $success = $this->ci->cache->save($key, $value, $ttl);
@@ -62,6 +66,10 @@ class CodeIgniterCacheAdapter implements CacheAdapter
      */
     public function get($key)
     {
+        if (!isset($this->ci->cache)) {
+            return false;
+        }
+        
         return $this->ci->cache->get($key);
     }
 }
